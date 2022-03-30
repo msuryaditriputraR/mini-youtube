@@ -18,5 +18,8 @@
   "homepage": "https://github.com/msuryaditriputraR/mini-youtube#readme",
   "devDependencies": {
     "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
   }
 }
