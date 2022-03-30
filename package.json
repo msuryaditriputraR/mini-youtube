@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/msuryaditriputraR/mini-youtube/issues"
   },
-  "homepage": "https://github.com/msuryaditriputraR/mini-youtube#readme"
+  "homepage": "https://github.com/msuryaditriputraR/mini-youtube#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
