@@ -1,0 +1,19 @@
+{
+  "name": "mini-youtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msuryaditriputraR/mini-youtube.git"
+  },
+  "author": "MsuryadiTriputraR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msuryaditriputraR/mini-youtube/issues"
+  },
+  "homepage": "https://github.com/msuryaditriputraR/mini-youtube#readme"
+}
