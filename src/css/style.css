@@ -40,6 +40,7 @@ h1 {
     outline: none;
     padding-left: .5rem;
     font-size: 1.25rem;
+    width: 100%;
 }
 
 .icon-search {
@@ -51,7 +52,7 @@ h1 {
     width: 80vw;
     margin: 3.5rem auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
 }
 
@@ -59,6 +60,12 @@ h1 {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+    height: fit-content;
+}
+
+.card__title {
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
 }
 
 .card__thumbnail {
@@ -82,4 +89,17 @@ h1 {
     width: 60px;
     height: 60px;
     border-radius: 50%;
+}
+
+p.center {
+    font-size: 1.25rem;
+}
+
+/* === UTILS === */
+.center {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
 }
