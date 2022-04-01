@@ -18,10 +18,6 @@
   "homepage": "https://github.com/msuryaditriputraR/mini-youtube#readme",
   "devDependencies": {
     "eslint": "^8.12.0",
-    "live-server": "^1.2.1",
     "prettier": "^2.6.1"
-  },
-  "dependencies": {
-    "dotenv": "^16.0.0"
   }
 }
