@@ -1,6 +1,6 @@
 import getChannelDetail from '../api/getChannelDetail.js';
 import getSearchResults from '../api/getSearchResults.js';
-import getVideo from '../api/getVideo.js';
+// import getVideo from '../api/getVideo.js';
 import Card from '../components/card.js';
 import subsFormater from '../helper/subsFormater.js';
 
@@ -18,7 +18,7 @@ async function handleSearch() {
 
             const cards = items.map(async item => {
                 const channelId = item.snippet.channelId;
-                const videoId = item.id.videoId;
+                // const videoId = item.id.videoId;
                 const title = item.snippet.title;
                 const desc = item.snippet.description;
                 const thumbnail = item.snippet.thumbnails.high.url;
